@@ -4,10 +4,10 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Admin-Dash-Board/', // ✅ This must be top-level
   plugins: [react()],
-  server:{
+  server: {
     port: 3000,
-    
   },
   resolve: {
     alias: {
