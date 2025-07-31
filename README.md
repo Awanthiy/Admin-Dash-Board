@@ -1,30 +1,41 @@
-E-Dashboard
-Welcome to eE-Dashboard, a sleek and fully responsive admin dashboard built with React and Tailwind CSS. This project gives you a smooth and modern interface to manage users, monitor insights, and tweak your settings — all in one place!
+# EDashboard
 
-Features
-Navigation Bar:
-Easily switch between Dashboard, Users, Insights, and Settings tabs. The logo “E-dashboard” keeps the branding consistent.
+Welcome to **EDashboard**, a sleek and fully responsive admin dashboard built with **React** and **Tailwind CSS**. This project provides a smooth and modern interface to manage users, monitor insights, and adjust your settings — all in one place!
 
-Dashboard Page:
-A warm welcome with your profile picture and name, plus quick stats cards showing total admins, total users, and active sessions. You also get a line chart to visualize user growth over time.
+## Features
 
-Users Page:
-Manage all users with a searchable and filterable table. Filter by role or status (active users in green, inactive in red), and find users quickly by name.
+- **Navigation Bar:**  
+  Switch easily between Dashboard, Users, Insights, and Settings tabs. The logo “EDashboard” keeps branding consistent.
 
-Insights Page:
-Dive into analytics with a bar graph showing user growth over the last six months, and a pie chart that breaks down user roles (admin, editor, user).
+- **Dashboard Page:**  
+  Displays a welcome message with profile picture and user name, plus three quick stats cards showing total admins, total users, and active sessions. Includes a line chart showing user growth over time.
 
-Settings Page:
-Update your username and password, toggle email notifications, and save your preferences easily.
+- **Users Page:**  
+  View all users in a searchable and filterable table. Filter by roles and status (active users in green, inactive users in red).
 
-Technology Stack
-React for building UI components
+- **Insights Page:**  
+  View user analytics with a bar graph showing six months of user growth, and a pie chart showing user roles distribution (admin, editor, user).
 
-Tailwind CSS for styling and mobile responsiveness
+- **Settings Page:**  
+  Update your username, password, toggle email notifications, and save your settings.
 
-Recharts (or similar) for interactive charts and graphs
+## Technology Stack
 
+- React  
+- Tailwind CSS  
+- Charting library (e.g., Recharts)  
+- Fully mobile responsive design
+
+## Installation and Setup
+
+To run this project locally:
+
+```bash
+git clone https://github.com/Awanthiy/Admin-Dash-Board.git
+cd Admin-Dash-Board
+npm install
+npm run dev
 Deployment
-The project is deployed and live! Check it out here:
+The project is deployed and live on GitHub Pages!
+Check it out here:
 https://awanthiy.github.io/Admin-Dash-Board/
-
