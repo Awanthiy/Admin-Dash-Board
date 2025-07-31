@@ -42,20 +42,7 @@ const SettingsPage = () => {
           />
         </div>
 
-         
-        <div className="flex items-center gap-3">
-          <input
-            type="checkbox"
-            id="darkMode"
-            checked={darkMode}
-            onChange={() => setDarkMode(!darkMode)}
-            className="w-5 h-5 accent-[#676BC9]"
-          />
-          <label htmlFor="darkMode" className="font-semibold text-[#676BC9]">
-            Enable Dark Mode
-          </label>
-        </div>
-
+          
          
         <div className="flex items-center gap-3">
           <input
