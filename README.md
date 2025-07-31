@@ -26,6 +26,12 @@ Welcome to **EDashboard**, a sleek and fully responsive admin dashboard built wi
 - Charting library (e.g., Recharts)  
 - Fully mobile responsive design
 
+## Deployment
+
+The project is deployed and live on GitHub Pages!  
+Check it out here:  
+[https://awanthiy.github.io/Admin-Dash-Board/](https://awanthiy.github.io/Admin-Dash-Board/)
+
 ## Installation and Setup
 
 To run this project locally:
@@ -35,7 +41,3 @@ git clone https://github.com/Awanthiy/Admin-Dash-Board.git
 cd Admin-Dash-Board
 npm install
 npm run dev
-Deployment
-The project is deployed and live on GitHub Pages!
-Check it out here:
-https://awanthiy.github.io/Admin-Dash-Board/
